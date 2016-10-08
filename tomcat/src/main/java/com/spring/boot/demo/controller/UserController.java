@@ -7,10 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 import com.spring.boot.demo.vo.User;
 
 @RestController  
-@RequestMapping("/user")
 public class UserController {
 
-	@RequestMapping("/{id}")  
+	@RequestMapping("/")  
+    String home() {  
+        return "Hello World!";  
+    }  
+	
+	@RequestMapping("/user/{id}")  
     public User view(@PathVariable("id") Long id) {  
         User user = new User();  
         user.setId(id);  
