@@ -1,4 +1,4 @@
-FROM docker.dev.yihecloud.com/base/java:2.0
+FROM docker.yihecloud.com/base/java:2.0
 
 MAINTAINER Niekq niekongquan@yihecloud.com
 
