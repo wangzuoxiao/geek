@@ -1,3 +1,4 @@
+FROM docker.yihecloud.com/base/java:8_60
 
 MAINTAINER Niekq niekongquan@yihecloud.com
 
